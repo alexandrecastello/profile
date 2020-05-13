@@ -78,7 +78,7 @@ a:hover {
 @media (max-width: 700px) {
   /* For a screen < 540px, this CSS will be read */
   h1 {
-    font-size: 400px;
+    font-size: 30px;
   }
 
   h2 {
