@@ -63,13 +63,10 @@ a:hover {
   font-size: 18px;
 }
 
-#profile-pic {
-  background-color: transparent;
-  display: flex;
-  flex-direction: column;
-  height: 150px;
-  justify-content: space-between;
-  font-size: 18px;
+.half-moon {
+  border-radius: 5px 50% 50% 5px;
+  width: 330px;
+  margin-left: 10px;
 }
 
 #bio {
@@ -78,14 +75,22 @@ a:hover {
 }
 
 
-@media (max-width: 640px) {
+@media (max-width: 376px) {
   /* For a screen < 540px, this CSS will be read */
   h1 {
+    font-size: 30px;
+  }
+
+  h2 {
+    font-size: 26px;
+  }
+
+  p{
     font-size: 22px;
   }
 
   #bio {
-    font-size: 15px
+    font-size: 22px
   }
 
   #top {
@@ -101,7 +106,32 @@ a:hover {
     height: initial;
     flex-direction: initial;
     justify-content: space-between;
-    font-size: 20px;
+    font-size: 35px;
   }
   
+  .container{
+    width: 330px;
+  }
+
+  .card {
+    background-color: #801336;
+    padding: 15px;
+    margin: 10px;
+    border-radius: 10px;
+  }
+  
+  #profile-pic {
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-size: 18px;
+  }
+  
+  .half-moon {
+    border-radius: 5px 50% 50% 5px;
+    width: 270px;
+    margin-left: 10px;
+  }
+
 }
