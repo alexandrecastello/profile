@@ -2,20 +2,23 @@ body {
   background-color: #2d132c;
   color: #ee4540;
   font-family: 'Jost', sans-serif;
+  font-weight: 300;
 }
 
 h2{
-  margin: 5x;
+  margin: 5px;
+  font-weight: 400;
 }
 
 p {
+  margin: 5px;
   text-align: justify;
 }
 
-a:link {
+a  {
   color: pink;
   background-color: transparent;
-  text-decoration: bold;
+  font-weight: 300; /**/ 
 }
 
 a:visited {
@@ -23,13 +26,13 @@ a:visited {
 }
 
 a:hover {
-  color: #ee4540;
+  color: pink;
   background-color: transparent;
-  text-decoration: underline;
+  font-weight: 400;
 }
 
 .half-moon {
-  border-radius: 0px 50% 50% 0px;
+  border-radius: 5px 50% 50% 5px;
   width: 150px;
   margin-left: 10px;
 }
@@ -59,8 +62,4 @@ a:hover {
 #bio {
   background-color: transparent;
   margin: auto;
-}
-
-#bottom {
-  text-align: center;
 }
