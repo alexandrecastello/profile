@@ -1,0 +1,66 @@
+body {
+  background-color: #2d132c;
+  color: #ee4540;
+  font-family: 'Jost', sans-serif;
+}
+
+h2{
+  margin: 5x;
+}
+
+p {
+  text-align: justify;
+}
+
+a:link {
+  color: pink;
+  background-color: transparent;
+  text-decoration: bold;
+}
+
+a:visited {
+  color: pink;
+}
+
+a:hover {
+  color: #ee4540;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+.half-moon {
+  border-radius: 0px 50% 50% 0px;
+  width: 150px;
+  margin-left: 10px;
+}
+
+.card {
+  background-color: #801336;
+  padding: 15px;
+  margin: 5px;
+  border-radius: 10px;
+}
+
+#top {
+  text-align: left;
+  display: flex;
+  margin-bottom: 15px;
+}
+
+#profile {
+  background-color: transparent;
+  display: flex;
+  flex-direction: column;
+  height: 150px;
+  justify-content: space-between;
+  font-size: 18px;
+}
+
+#bio {
+  background-color: transparent;
+  margin: auto;
+}
+
+#bottom {
+  text-align: center;
+}
