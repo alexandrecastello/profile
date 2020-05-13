@@ -5,6 +5,10 @@ body {
   font-weight: 300;
 }
 
+.container {
+  margin: 0 auto;
+}
+
 h1 {
 margin: 15px;
 }
@@ -63,9 +67,13 @@ a:hover {
   font-size: 18px;
 }
 
+#profile-pic {
+  background-color: transparent;
+}
 .half-moon {
+  background-color: transparent;
   border-radius: 5px 50% 50% 5px;
-  width: 330px;
+  width: 150px;
   margin-left: 10px;
 }
 
@@ -110,6 +118,7 @@ a:hover {
   }
   
   .container{
+    margin: 0 auto;
     width: 330px;
   }
 
@@ -133,5 +142,4 @@ a:hover {
     width: 270px;
     margin-left: 10px;
   }
-
 }
